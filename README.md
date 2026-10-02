@@ -2,6 +2,8 @@
 
 > ⚠️ **Vibe Coded** — written by an AI agent working from a human's direction. It is used in a shipping game and covered by tests, but it has had no line-by-line human audit. Read it before you trust it.
 
+> **Archived 2026-09-04 — development continues as [`bevy_carnage::bloodstain`](https://github.com/Ladvien/bevy_carnage).** Its releases stay on crates.io on purpose: this crate is engine-free and `no_std`, and `bevy_carnage` requires Bevy. It will get no further releases, and this repository no longer mirrors anything: `crates/bloodstain/` was removed from [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) when the crate became a module.
+
 Blood as a **material**, not a texture: shear-thinning viscosity with a yield stress that grows into a clot, percolation spatter, stain silhouettes derived from impact conditions, the six forensic pattern classes as generators, a drying timeline, an inverse solver that reads the wound back out of the stains — and the three injury kernels around it: a bruise's haemoglobin/bilirubin chemistry, a burn's bioheat and Arrhenius damage, and blood wicking into cloth.
 
 > **This repo is a read-only mirror.** It is split out of [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) with `git subtree split`, history intact. Issues and PRs belong upstream.
